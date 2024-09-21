@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <header class="container-fluid bg-dark my-"><!--Aqui va el nav-->
+    <header class="container-fluid bg-dark my-">
       <nav class="container navbar navbar-expand-lg bg-dark"; data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Logo" width="200" height="40"></a><!--Logo blanco de cuppon-->
+          <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Logo" width="200" height="40"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav"><!--tiene un justify end para que el resto del nav quede alineado al final-->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Sobre mi</a>
@@ -36,8 +36,8 @@
       </nav>
     </header>
     <section class="bgportada pt-1 pb-5">
-      <div class="container row rounded justify-content-end my-5"><!--centrado por si alguna grilla queda sola, y con gap entre ellas-->
-        <div class="col-11 col-md-6 col-lg-4"><!--Responsividad para celular, tablet y pc-->
+      <div class="container row rounded justify-content-end my-5">
+        <div class="col-11 col-md-6 col-lg-4">
           <div class="card">
             <img src="./assets/img/photo.jpg" class="card-img-top" alt="card1">
             <div class="card-body">
@@ -66,7 +66,7 @@
 
         <h2 class="display-3 fw-bold py-4">Acerca de mi</h2>
         <p class="my-4">
-            Soy autodidacta, inquieto cuando se trata de aprender algo nuevo, multifacetico por naturaleza, informatico electronico de profesión, aunque he indagado en otros mundos como la mecanica, las finanzas e inversiones. Creo en la tecnologia al servicio de la humanidad, utilizada con inteligencia, equilibrio y sabiduria, en pro de la autosustentabilidad y eficiencia.
+            Me considero alguien autodidacta, inquieto cuando se trata de aprender algo nuevo, multifacetico por naturaleza, informatico electronico de profesión, aunque he indagado en otros mundos como las telecomunicaciones, la automatización, mecanica, las finanzas e inversiones. Creo en los avances tecnologicos al servicio de la humanidad, utilizada con inteligencia, equilibrio y sabiduria, en pro de la autosustentabilidad y eficiencia.
         </p>
         <div class="row">
           <div class="col-12 col-md-4">
@@ -239,6 +239,45 @@
         </div>
       </div>
     </article>
+    <section class="bg-dark pb-5">
+      <h2 class="display-3 fw-bold text-center py-5 text-light">Portafolio</h2>
+      <p class="mb-5 container text-light">
+        A continuación podran ingresar al Portafolio correspondiente a la carrera de Desarrollador FullScript, el cual contiene todos los proyectos realizados en cada Modulo.
+      </p>
+      <a href="./portafolio.html" target="_blank" title="Clickea/Toca para acceder al Portafolio">
+      <div class="d-grid gap-2 container">
+        <button class="btn btn-primary" type="button">Ingresar</button>
+      </div>
+      </a>
+    </section>
+    <section id="Contacto" class="container my-5">
+      <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+      <p class="text-center my-4 d-none d-md-block">Si deseas comunicarte conmigo lo puedes hacer completando los siguientes campos.</p>
+      <form>
+          <div class="form-group mb-4">
+              <label class="mb-2">Nombre</label>
+              <input class="form-control" placeholder="Nombre">
+          </div>
+
+          <div class="form-group mb-4">
+              <label class="mb-2">Correo electrónico</label>
+              <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+
+
+          <div class="form-group">
+              <label class="mb-2">Mensaje</label>
+              <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+          </div>
+
+          <div class="my-3 text-end">
+              <button class="btn btn-dark text-light">Enviar</button>
+          </div>
+      </form>
+  </section>
+  <footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0">Jose Alfredo Salgado Riquelme. Santiago de Chile, 2024. Todos los derechos reservados.</p>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
